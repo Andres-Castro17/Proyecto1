@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animaciones.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+       
+        <nav class="navbar">
+            
+            <!-- Menu -->
+
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
+
+            <ul class="navbar-list">
+                <li> <a href="#hero"> Inicio</a></li>
+                <li> <a href="#info"> Nosotros</a></li>
+                <li> <a href="#options"> Menú</a></li>  
+                <li> <a href="#contact"> Contactanos</a></li> 
+            </ul>
+
+            <img src="/assets/thumbnail_Logo Rojo.jpg" alt=""> 
+            
+            <ul class="navbar-login">
+                <li> <a href="#"> Ingresá</a></li>
+                <li> <a href="#"> Registrate</a></li>
+            </ul>
+
+            <!-- Carrito -->
+
+            <label for="cart-toggle" class="cart-label">
+                <i class="fa-solid fa-cart-shopping cart-icon"></i>
+            </label>
+            <input type="checkbox" id="cart-toggle">
+
+            <!-- Agregamos productos al carrito -->
+
+            <div class="cart">
+                <h2>Tu pedido</h2>
+
+                <div class="cart-item">
+                    <img src="/assets/Lomo especial.png" alt="">
+
+                    <div class="item-info">
+                        <h3 class="item-product">Especial</h3>
+                        <span class="item-price">$6300</span>
+                    </div>
+
+                    <item class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">3</span>
+                        <span class="quantity-handler up">+</span>
+                    </item>
+
+                </div>
+
+                <div class="cart-item">
+                    <img src="/assets/Lomo simple con huevo.jpg" alt="">
+
+                    <div class="item-info">
+                        <h3 class="item-product">C/Huevo</h3>
+                        <span class="item-price">$2000</span>
+                    </div>
+
+                    <item class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">1</span>
+                        <span class="quantity-handler up">+</span>
+                    </item>
+
+                </div>
+
+                <div class="cart-item">
+                    <img src="/assets/Lomo simple.jpg" alt="">
+
+                    <div class="item-info">
+                        <h3 class="item-product">Simple</h3>
+                        <span class="item-price">$3800</span>
+                    </div>
+
+                    <item class="item-handler">
+                        <span class="quantity-handler down">-</span>
+                        <span class="item-quantity">2</span>
+                        <span class="quantity-handler up">+</span>
+                    </item>
+
+                </div>
+
+                <span class="divider"></span>
+
+                <div class="cart-total">
+                    <p>Total</p>
+                    <span>$12.100</span>
+                </div>
+
+                <button class="btn-buy">Comprar</button>
+
+            </div>
+
+            <div class="overlay"></div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+
+        <section id="hero">
+            <div class="hero-info">
+                <h1>Lomitos <span>Chetapy's</span></h1>
+                <h3>Tradición en lomitos, desde 1975 conquistando el paladar de los cordobeses.</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam a rerum tempore tenetur praesentium, expedita assumenda optio reiciendis temporibus ducimus repellat magni ab unde ratione est asperiores, eum nam enim.</p>
+                <div class="buttons">
+                    <a href="">Ingresá</a>
+                    <a href="">Registrate</a>  
+                </div>
+            </div>
+            <img src="/assets/segunda imagen portada.jpg" alt="" class="hero-img">
+       
+        </section>
+
+        <!-- Cards -->
+
+        <section id="info">
+                <div class="info-container">
+                    <h2>Descubrí por qué nos eligen</h2>
+                    <p>Más de 40 años siendo elegidos por la mayoría de los cordobeses. Acercate a nuestro local y comprobá por qué somos el mejor lomito de la ciudad.</p>
+                </div>
+                <div class="info-card-container">
+                    <div class="card">
+                        <i></i>
+                        <h3>Calidad</h3>
+                        <p>Una de las únicas lomiterías con verdadera carne de lomo.</p>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <h3>Variedad</h3>
+                        <p>Amplia variedad de productos, incluyendo opciones vegetarianas y sin TACC.</p>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <h3>A tu gusto</h3>
+                        <p>Armá tu lomito con los ingredientes que más te gustan.</p>
+                    </div>
+                    <div class="card">
+                        <i></i>
+                        <h3>Pet friendly</h3>
+                        <p>Trae a tu mascota y disfruten de nuestro extenso patio con galería.</p>
+                    </div>
+                </div>    
+        </section>
+
+        <!-- Options -->
+
+        <section id="options">
+            <h2>Nuestra carta</h2>
+            <div class="carta-menu">
+                <button class="menu active">Lomitos</button>
+                <button class="menu">Hamburguesas</button>
+                <button class="menu">Milanesas</button>
+                <button class="menu">Al plato</button>
+                <button class="menu">Papas</button>
+                <button class="menu">Postres</button>
+            </div>
+        </section>
+           
+
+        <section id="products">
+            <div class="product-container">
+                <!-- Primer Lomo -->
+                <div class="product">
+                    <img src="/assets/Lomo simple.jpg" alt="Lomito simple">
+                    <div class="product-info">
+                        <!-- top -->
+                        <div class="product-top">
+                            <h3>Lomo Simple</h3>
+                        </div>
+
+                        <!-- mid -->
+                        <div class="product-mid">
+                            <p>Pan, bife de lomo de ternera o pollo, chimichurri, queso, lechuga, tomate y mayonesa casera</p>
+                        </div>
+
+                        <!-- bottom -->
+                        <div class="product-bot">
+                            <span>$1900</span>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                 
+                    </div>
+                </div>
+
+                <!-- Segundo Lomo -->
+                <div class="product">
+                    <img src="/assets/Lomo simple con huevo.jpg" alt="Lomito simple">
+                    <div class="product-info">
+                        <!-- top -->
+                        <div class="product-top">
+                            <h3>Simple con huevo</h3>
+                        </div>
+
+                        <!-- mid -->
+                        <div class="product-mid">
+                            <p>Pan, bife de lomo de ternera o pollo, chimichurri, queso, lechuga, tomate, huevo y mayonesa casera</p>
+                        </div>
+
+                        <!-- bottom -->
+                        <div class="product-bot">
+                            <span>$2000</span>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- Tercer Lomo -->
+                <div class="product">
+                    <img src="/assets/Lomo especial.png" alt="Lomito simple">
+                    <div class="product-info">
+                        <!-- top -->
+                        <div class="product-top">
+                            <h3>Lomo Especial</h3>
+                        </div>
+
+                        <!-- mid -->
+                        <div class="product-mid">
+                            <p>Pan, bife de lomo de ternera o pollo, chimichurri, queso, lechuga, tomate, ají, morrón, huevo y mayonesa casera</p>
+                        </div>
+
+                        <!-- bottom -->
+                        <div class="product-bot">
+                            <span>$2100</span>
+                            <button class="btn-add">Comprar</button>
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+
+            </div>
+        </section>
+            
+
+         <!--Contacto  -->        
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-container-info">
+                    <div class="contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>lomitoschetapys@gmail.com</p>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Av Colón 5422</p>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(0351) 484-6957</p>
+                    </div>
+                    <div class="contact-info-redes">
+                        <a href="https://www.instagram.com/lomitoschetapys/?hl=es" target="_blank" class="link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100063690515168" target="_blank" class="link"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13622.647245496431!2d-64.2535718!3d-31.3958873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329f301b3d4369%3A0x76f26cdeeb1c93ce!2sChetapy&#39;s!5e0!3m2!1ses-419!2sar!4v1677514348839!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <span>©2023 - Todos los derechos reservados</span>
+            <p>Lomitos Chetapy's - Tradición en lomitos</p>
+        </div>
+   
+    </footer>
+        
+
+</body>
+</html>
