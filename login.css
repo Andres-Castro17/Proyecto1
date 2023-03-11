@@ -20,11 +20,12 @@ body {
 }
 
 
-#login {
+.login {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: rgb(51, 50, 50);
+  width: 100%;
+  margin-top: 10px;
 }
 
 .login-container img {
@@ -41,7 +42,7 @@ body {
   display: flex;
   justify-content: center;
   border: 3px solid white;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 form {
