@@ -401,7 +401,6 @@
     }
 
     .hero-info p {
-        padding-right: 40px;
         text-align: center;
     }
 
@@ -516,7 +515,7 @@
         font-size: 15px;
         background: #a60f0f;
         color: white;
-        border-top: 0.5px solid white;
+        /* border-top: 0.5px solid white; */
     }
 
 }

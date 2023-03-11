@@ -543,7 +543,7 @@ p {
     justify-content: center;
     padding: 60px 0px;
     gap: 50px;
-    background: #a60f0f;
+    background: black;
 }
 
 #contact h2 {
@@ -614,5 +614,6 @@ footer {
     align-items: center;
     padding: 20px 15px;
     gap: 30px;
+    font-weight: 500;
 }
 
