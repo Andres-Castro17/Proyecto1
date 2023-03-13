@@ -269,10 +269,10 @@ main {
 }
 
 .hero-info h3 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -281,6 +281,7 @@ main {
     font-size: 16px;
     width: 100%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .buttons {
