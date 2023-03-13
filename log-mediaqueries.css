@@ -46,7 +46,7 @@
 
     .login-container {
         width: 90%;
-        /* max-width: 250px; */
+        margin-top: 10px;
         align-items: center;
     }
 
@@ -80,7 +80,6 @@
         display: flex;
         width: 100%;
         padding-left: 10px;
-        gap: 0px;
     }
 
     .options-2 p {

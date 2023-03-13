@@ -36,13 +36,10 @@ body {
 .login-container {
   height: 650px;
   width: 400px;
-  /* margin-left: 25%;
-  margin-right: 25%; */
   color: white;
   display: flex;
   justify-content: center;
   border: 3px solid white;
-  margin-top: 10px;
 }
 
 form {
@@ -89,7 +86,7 @@ form {
 
 .options-container  {
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
   gap: 25px;
   flex-direction: column;
 }
