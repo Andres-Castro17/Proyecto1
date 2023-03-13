@@ -543,7 +543,7 @@ p {
     justify-content: center;
     padding: 60px 0px;
     gap: 50px;
-    background: black;
+    background: rgb(51, 50, 50);
 }
 
 #contact h2 {
