@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 130px;
+    scroll-padding-top: 120px;
 }
 
 .overlay {
@@ -134,7 +134,7 @@ html {
  .btn-add:hover {
    transition: all 0.1s ease-in;
    background-color: orange;
-   border: orange;
+   border: 2px solid orange;
    color: white;
    /* font-size: 18px; */
  }
@@ -234,7 +234,7 @@ header {
 
 .hero-info h1::before {
    background-color: white;
-   animation: typewritter 0.9s steps(17) forwards;
+   animation: typewritter 0.9s steps(27) forwards;
    animation-delay: 0.2s;
 }
 

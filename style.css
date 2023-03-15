@@ -1,6 +1,8 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
 
 
 * {
@@ -48,19 +50,21 @@ header {
 
 .navbar-list a {
     color: #a60f0f;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 500;
+    font-family: 'Rancho', cursive;
 }
 
 .navbar-login {
     display: flex;
     gap: 60px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .navbar-login a {
     color: #a60f0f;
+    font-family: 'Rancho', cursive;
 }
 
 .cart-icon {
@@ -245,7 +249,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 90%;
     gap: 50px;
 }
@@ -257,22 +261,35 @@ main {
     gap: 30px;
 }
 
-.hero-info h1 {
+.hero-info h1 p {
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 65px;
+    gap: 5px;
+    font-size: 170px;
     font-weight: 900;
     color: #a60f0f;
     padding: 5px;
-    border-radius: 15px;
     width: 100%;
+    font-family: 'Rancho', cursive;
 }
+
+.hero-info h1 span {
+    font-family: 'Rancho', cursive;
+    color: #a60f0f;
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: 550;
+}
+
 
 .hero-info h3 {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 650;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 35px;
     text-align: center;
 }
 
@@ -281,7 +298,7 @@ main {
     font-size: 16px;
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .buttons {
@@ -309,7 +326,7 @@ main {
 }
 
 .hero-img {
-    width: 40%;
+    width: 45%;
     border-radius: 50px;
     margin-top: 20px;
 }
@@ -325,6 +342,7 @@ main {
     align-items: center;
     text-align: center;
     max-width: 1200px;
+    margin-top: 20px;
 }
 
 .info-container {
@@ -467,7 +485,8 @@ main {
 }
 
 .product {
-    background-color: #a60f0f;
+    /* background-color: #a60f0f; */
+    border: 3px solid #a60f0f;
     display: flex;
     justify-content: center;
     width: 800px;
@@ -493,7 +512,7 @@ main {
 .product-mid,
 .product-bot {
   display: flex;
-  color: white;
+  color: #a60f0f;
 }
 
 .product-top {
@@ -504,32 +523,39 @@ main {
 
 .product-top h3 {
     font-size: 29px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 0 20px;
     display: flex;
     
 }
 
-.product-mid, 
-p {
+.product-mid p {
     font-size: 17px;
     padding: 0 25px;
+    font-weight: 500;
+    color: black;
 }
 
 .product-bot {
     font-size: 20px;
     justify-content: space-between;
-    padding: 0 25px;
+    padding-right: 25px;
+    padding-left: 50px;
+}
+
+.product-bot span {
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .product-bot button {
     font-size: 17px;
     font-weight: 700;
     border-radius: 15px;
-    padding: 5px;
-    border: none;
-    color:#a60f0f;
-    background-color: white;
+    padding: 8px;
+    border: 2px solid red;
+    color: white;
+    background-color: red;
     cursor: pointer;
 }
 
@@ -576,6 +602,7 @@ p {
 .contact-info {
     display: flex;
     flex-wrap: wrap;
+    gap: 11px;
 }
 
 .contact-info i {
