@@ -34,11 +34,12 @@
 
 @media (max-width: 992px) {
     .navbar {
-        gap: 10px;
+        gap: 50px;
         display: flex;
-        justify-content: space-evenly;
         width: 100%;
         position: sticky;
+        justify-content: center;
+        padding-left: 50px;
     }
 
 
@@ -60,11 +61,6 @@
         display: none;
     }
 
-    .navbar-list a {
-        font-size: 28px;
-        color: #a60f0f;
-    }
-
     .navbar-login {
         display: none;
     }
@@ -74,14 +70,22 @@
         left: -15px;
     }
 
+    .cart-icon {
+        font-size: 25px;
+    }
+
 
     /* menu */
 
     .menu-label {
         display: flex;
-        order: 2;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    #menu-toggle,
+    .menu-icon {
+        color: #a60f0f;
     }
 
 
@@ -222,7 +226,7 @@
      }
 
      #contact h2 {
-        font-size: 30px;
+        font-size: 35px;
      }
 
      .contact-container {
@@ -338,6 +342,12 @@
         width: 100%;
     }
 
+    .navbar {
+        gap: 15px;
+        justify-content: center;
+        padding-left: 15px;
+    }
+
  /* Carrito */
 
     .cart {
@@ -350,12 +360,12 @@
     }
 
     .cart-icon {
-        font-size: 24px;
+        font-size: 22px;
         
     }
 
     .menu-icon {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .cart-item {
@@ -555,9 +565,9 @@
 
     footer {
         width: 100%;
-        background: #a60f0f;
+        background: rgb(51, 50, 50);
         color: white;
-        /* border-top: 0.5px solid white; */
+        border-top: 1px solid gray;
     }
 
     .footer-container span {

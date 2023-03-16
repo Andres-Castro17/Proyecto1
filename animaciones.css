@@ -3,7 +3,7 @@ html {
     scroll-padding-top: 120px;
 }
 
-.overlay {
+/* .overlay {
     position: absolute;
     top: 110px;
     left: -2px;
@@ -13,7 +13,7 @@ html {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     display: none;
-}
+} */
 
  #cart-toggle:checked ~ 
  .overlay {

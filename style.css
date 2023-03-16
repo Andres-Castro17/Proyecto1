@@ -485,7 +485,6 @@ main {
 }
 
 .product {
-    /* background-color: #a60f0f; */
     border: 3px solid #a60f0f;
     display: flex;
     justify-content: center;
@@ -630,9 +629,9 @@ main {
 
 footer {
     width: 100%;
-    color:#a60f0f;
-    border: none;
-    background: white;
+    color: white;
+    border-top: 1px solid gray;
+    background: rgb(51, 50, 50);
 }
 
 .footer-container {
@@ -642,6 +641,6 @@ footer {
     align-items: center;
     padding: 20px 15px;
     gap: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
